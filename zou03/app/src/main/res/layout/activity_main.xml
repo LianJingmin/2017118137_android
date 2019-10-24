@@ -5,10 +5,17 @@
 
     <Button
         android:id="@+id/button_1"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button 1"
-        />
+        android:text="Button 1" />
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is textview">
+
+    </androidx.appcompat.widget.AppCompatAutoCompleteTextView>
 
 </LinearLayout>
 
