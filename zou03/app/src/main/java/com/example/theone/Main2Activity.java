@@ -27,6 +27,24 @@ public class Main2Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button button3=(Button)findViewById(R.id.button_3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("geo:"));
+                startActivity(intent);
+            }
+        });
+        Button button4=(Button)findViewById(R.id.button_4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:123456"));
+                startActivity(intent);
+            }
+        });
     }
     @Override
     protected void onStart(){
