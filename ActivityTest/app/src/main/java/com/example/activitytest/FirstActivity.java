@@ -59,4 +59,9 @@ public class FirstActivity extends AppCompatActivity {
                 default:
         }
     }
+    @Override
+    protected void onRestart(){
+        super.onRestart();
+        Log.d("FirstActivity","onRestart");
+    }
 }
