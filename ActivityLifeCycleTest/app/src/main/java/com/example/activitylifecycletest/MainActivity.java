@@ -56,9 +56,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy(){
         super.onDestroy();
         Log.d(TAG,"onDestroy");
-    } @Override
+    }
+    @Override
     protected void onRestart(){
         super.onRestart();
         Log.d(TAG,"onRestart");
     }
+    @Override
+    protected void onSaveInstanceState(Bundle outState){
+        super.onSaveInstanceState(outState);
+        String tempData = "Something you just typed";
+        outState.putString("data_key",tempData);
+    }
+
 }
