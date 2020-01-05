@@ -19,8 +19,9 @@ public class FirstActivity extends AppCompatActivity {
         Button button1 = (Button) findViewById(R.id.button_1);
         button1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Toast.makeText(FirstActivity.this,"You clicked Button 1",
-                        Toast.LENGTH_SHORT).show();
+               // Toast.makeText(FirstActivity.this,"You clicked Button 1",
+                 //       Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
     }
