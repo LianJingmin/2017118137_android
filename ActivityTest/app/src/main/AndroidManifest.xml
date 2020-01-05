@@ -16,7 +16,8 @@
                 <data android:scheme="http"/>
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
+        <activity android:name=".SecondActivity"
+            android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="com.example.activity.ACTION_START" />
 

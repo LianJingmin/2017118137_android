@@ -19,6 +19,7 @@ public class FirstActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d("FirstActivity",this.toString());
+        Log.d("FirstActivity","Task id is"+getTaskId());
         setContentView(R.layout.first_layout);
         Button button1 = (Button) findViewById(R.id.button_1);
         button1.setOnClickListener(new View.OnClickListener() {
