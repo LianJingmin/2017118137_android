@@ -35,7 +35,7 @@ public class FirstActivity extends AppCompatActivity {
             case R.id.add_item:
                 Toast.makeText(this,"You clicked Add",Toast.LENGTH_SHORT).show();
                 break;
-                case R.id.remove_item;
+            case R.id.remove_item:
                 Toast.makeText(this,"You clicked Remove",Toast.LENGTH_SHORT).show();
                 break;
                 default:
