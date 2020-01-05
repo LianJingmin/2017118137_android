@@ -7,5 +7,8 @@
         android:id="@+id/text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#00ff00"
         android:text="This is TextView"/>
 </LinearLayout>
